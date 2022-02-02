@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "AnglodavekA55E";
+    src: local("AnglodavekA55E"),
+     url("./fonts/Anglodavek/Anglodavek-a55E.ttf") format("truetype");
+    font-weight: bold;
+    }

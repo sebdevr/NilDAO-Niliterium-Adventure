@@ -1,0 +1,35 @@
+.footer{
+    position: relative;
+}
+.top-background {
+    background: #FFFDE4;
+}
+.header-about-text {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #000000;
+}
+.footer-text {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.about-text {
+color: #FFFF;
+
+
+font-family: Roboto;
+font-style: italic;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+}
+
