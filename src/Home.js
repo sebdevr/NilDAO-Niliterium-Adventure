@@ -92,7 +92,13 @@ export default function Home() {
                     </div>
                )
                :
-                (<Link to="/About"><p style={{color: "#AAAFAB"}}>About</p></Link>)
+               (
+                <div className="flex">
+                    <img src={Blankpointer} alt="pointer" width="20"/>
+                    <Link to="/About"><p className="ml-6" style={{color: "#AAAFAB"}}>About</p></Link>
+                </div>
+                
+            )
               }
           </div>
           <div className="flex mt-4 cursor-pointer" onMouseOver={() => handleactive("joinlegion")} onMouseLeave={() => handleactive("")}  onClick={() => handleClickActive("joinlegion")}>
@@ -113,7 +119,13 @@ export default function Home() {
                     </div>
                )
                :
-                (<a href='https://forms.gle/TpinEj8JV2mxJx837'><p style={{color: "#AAAFAB"}}>Join Legion</p></a>)
+               (
+                <div className="flex">
+                    <img src={Blankpointer} alt="pointer" width="20"/>
+                    <a href="https://forms.gle/TpinEj8JV2mxJx837"><p className="ml-6" style={{color: "#AAAFAB"}}>Leaderboard</p></a>
+                </div>
+                
+            )
               }
           </div>
         </div>
