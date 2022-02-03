@@ -1,1 +1,2 @@
-web: react-scripts start & wait -n node server.js
+web: react-scripts start
+web: node server.js
