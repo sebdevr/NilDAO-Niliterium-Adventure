@@ -1,2 +1,1 @@
-web: react-scripts start
-web: node server.js
+web: react-scripts start & node server.js
