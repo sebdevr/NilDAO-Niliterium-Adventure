@@ -1,13 +1,13 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-require("dotenv").config({ path: "./src/config.env" });
+require("dotenv").config({ path: "./config.env" });
 const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
-app.use(require("./src/routes/record"));
+app.use(require("./record"));
 // get driver connection
-const dbo = require("./src/db/conn");
+const dbo = require("./db/conn");
  
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, 'mappinapp', 'build')));
