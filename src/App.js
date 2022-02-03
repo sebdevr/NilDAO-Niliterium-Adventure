@@ -10,7 +10,7 @@ import About from './components/About';
 
 function App() {
   const client = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: ''
   })
 
 
