@@ -122,7 +122,7 @@ export default function Home() {
                (
                 <div className="flex">
                     <img src={Blankpointer} alt="pointer" width="20"/>
-                    <a href="https://forms.gle/TpinEj8JV2mxJx837"><p className="ml-6" style={{color: "#AAAFAB"}}>Leaderboard</p></a>
+                    <a href="https://forms.gle/TpinEj8JV2mxJx837"><p className="ml-6" style={{color: "#AAAFAB"}}>Join Legion</p></a>
                 </div>
                 
             )
