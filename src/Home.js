@@ -66,13 +66,13 @@ export default function Home() {
               }
           </div>
           <div className="flex mt-4">
-            <p style={{color: "#AAAFAB"}}>Load campaign</p>
+            <p style={{color: "#828282"}}>Load campaign</p>
           </div>
           <div className="flex mt-4">
-            <p style={{color: "#AAAFAB"}}>Missions</p>
+            <p style={{color: "#828282"}}>Missions</p>
           </div>
           <div className="flex mt-4">
-            <p style={{color: "#AAAFAB"}}>Profile</p>
+            <p style={{color: "#828282"}}>Profile</p>
           </div>
           <div className="flex mt-4 cursor-pointer" onMouseOver={() => handleactive("about")} onMouseLeave={() => handleactive("")}  onClick={() => handleClickActive("about")}>
             {

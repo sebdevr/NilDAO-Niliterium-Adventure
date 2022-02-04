@@ -20,12 +20,11 @@ A sovereign empire looking to offer a HQ to the metaverse enjoyors.<br/><br/>
 As a Scout, you actively take place in Niliterium Campaigns to gain experience and elevate yourself. 
 With greater rank comes recognition, prosperity and responsabilities.<br/><br/> 
 
-Missions can be accomplished in our discord.<br/> XP is precious. You will never have enough.<br/><br/>
-AHOU AHOU</p>
+Missions can be accomplished in our discord.<br/> XP is precious. You will never have enough.<br/><br/></p>
 </div>
 <div className="fixed bottom-0 w-full bg-black flex md:px-16 md:py-10 px-8 py-8">
 
-       <a href="https://discord.gg/7n33TDN4Tw"><div className="flex">
+       <a href="http://discord.gg/nildao"><div className="flex">
                <p className="Footer-text mr-2">Join Discord</p>
                <img src={AButton} alt="back-arrow" width="32px"/>
            </div></a>
