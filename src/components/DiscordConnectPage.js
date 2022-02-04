@@ -1,8 +1,8 @@
-import './Discord.css';
+import './DiscordConnectPage.css';
 import { Link } from "react-router-dom";
 
 
-export default function Lb() {
+export default function DiscordConnect() {
   return (
 <div className="header-Container">
 <div className="Discord-Header-text">
