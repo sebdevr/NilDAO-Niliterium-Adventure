@@ -67,7 +67,7 @@ export default function Lb({client}) {
                 </span>
                 <div className="flex mr-4">
                     <p className="text-white">x </p>
-                    <p className="text-white">- </p>
+                    <p className="text-white"> -</p>
                 </div>
             </div>
         </div>
