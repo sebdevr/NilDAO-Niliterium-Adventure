@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 .footer{
     position: relative;
@@ -7,7 +7,7 @@
     background: #FFFDE4;
 }
 .header-about-text {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 500;
     font-size: 44px;
@@ -15,7 +15,7 @@
     color: #000000;
 }
 .footer-text {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 500;
     font-size: 23px;
@@ -28,7 +28,7 @@
 color: #FFFF;
 
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: italic;
 font-weight: 500;
 font-size: 32px;

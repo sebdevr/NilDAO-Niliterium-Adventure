@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 .Menus {
   display: flex;
   align-items: flex-end;
-  font-family:  Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: 30px;
@@ -17,7 +17,7 @@
   display: flex;
   align-items: flex-end;
   color: #E2DED3;
-  font-family:  Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-style: italic;
   font-size: 22px;
